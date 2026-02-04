@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1
+
+- Add missing wheels
+
 ## 1.4.0
 
 - Add Chinese phonemizer based on [g2pW](https://github.com/GitYCC/g2pW/)
