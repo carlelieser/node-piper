@@ -1,0 +1,5 @@
+build/
+node_modules/
+espeak-ng-data/
+download/
+lib/onnxruntime*/

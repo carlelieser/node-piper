@@ -1,0 +1,39 @@
+{
+  "name": "piper-tts",
+  "version": "1.4.1",
+  "description": "Fast, local neural text-to-speech engine for Node.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "install": "cmake-js compile",
+    "build": "cmake-js compile",
+    "build:debug": "cmake-js compile --debug",
+    "test": "node --test test/test.mjs"
+  },
+  "dependencies": {
+    "cmake-js": "^7.3.0",
+    "node-addon-api": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OHF-voice/piper1-gpl.git",
+    "directory": "node"
+  },
+  "keywords": [
+    "tts",
+    "text-to-speech",
+    "piper",
+    "speech-synthesis",
+    "onnx"
+  ],
+  "files": [
+    "lib/",
+    "src/",
+    "espeak-ng-data/",
+    "CMakeLists.txt"
+  ]
+}
